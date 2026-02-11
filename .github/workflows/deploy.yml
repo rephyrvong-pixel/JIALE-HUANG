@@ -2,7 +2,7 @@ name: Deploy Vite App
 
 on:
   push:
-    branches: ["main"] # Make sure this matches your branch name!
+    branches: ["main"]
 
 permissions:
   contents: read
@@ -27,10 +27,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: 'npm'
+          # cache: 'npm'  <-- I REMOVED THIS LINE
 
       - name: Install dependencies
-        run: npm ci
+        # run: npm ci     <-- I CHANGED THIS LINE BELOW:
+        run: npm install
 
       - name: Build
         run: npm run build
@@ -41,7 +42,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist' # This is where Vite outputs the built files
+          path: './dist'
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
