@@ -10,7 +10,7 @@ export const PROJECTS: Project[] = [
     link: 'https://github.com/rephyrvong-pixel/portfolio/releases/download/masterportfolio/pfl01.pdf',
     videoReference: 'https://github.com/rephyrvong-pixel/portfolio/releases/download/masterportfolio/9154finalvideo.mp4',
     category: 'Product Design',
-    thumbnail: 'https://picsum.photos/seed/shell/1200/800?grayscale'
+    thumbnail: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop'
   },
   {
     id: '2',
@@ -19,7 +19,7 @@ export const PROJECTS: Project[] = [
     tags: ['UI/UX', 'Security'],
     link: 'https://github.com/rephyrvong-pixel/portfolio/releases/download/masterportfolio/pfl02.pdf',
     category: 'UI/UX',
-    thumbnail: 'https://picsum.photos/seed/captcha/1200/800?grayscale'
+    thumbnail: 'https://images.unsplash.com/photo-1558494949-ef8b565628b3?q=80&w=1200&auto=format&fit=crop'
   },
   {
     id: '3',
@@ -28,7 +28,7 @@ export const PROJECTS: Project[] = [
     tags: ['Product Design', 'Urban Planning'],
     link: 'https://github.com/rephyrvong-pixel/portfolio/releases/download/masterportfolio/pfl03.pdf',
     category: 'Product Design',
-    thumbnail: 'https://picsum.photos/seed/power/1200/800?grayscale'
+    thumbnail: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=1200&auto=format&fit=crop'
   },
   {
     id: '4',
@@ -37,7 +37,7 @@ export const PROJECTS: Project[] = [
     tags: ['Environmental Design', 'Research'],
     link: 'https://github.com/rephyrvong-pixel/portfolio/releases/download/masterportfolio/pfl04.pdf',
     category: 'Environment',
-    thumbnail: 'https://picsum.photos/seed/tibet/1200/800?grayscale'
+    thumbnail: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200&auto=format&fit=crop'
   },
   {
     id: '5',
@@ -46,7 +46,7 @@ export const PROJECTS: Project[] = [
     tags: ['HCI', 'Accessibility', 'VR'],
     link: 'https://github.com/rephyrvong-pixel/portfolio/releases/download/masterportfolio/pfl05.pdf',
     category: 'HCI',
-    thumbnail: 'https://picsum.photos/seed/vr/1200/800?grayscale'
+    thumbnail: 'https://images.unsplash.com/photo-1478416272538-5f7e51dc5400?q=80&w=1200&auto=format&fit=crop'
   },
   {
     id: '6',
@@ -55,7 +55,7 @@ export const PROJECTS: Project[] = [
     tags: ['Social Innovation', 'Product Design'],
     link: 'https://github.com/rephyrvong-pixel/portfolio/releases/download/masterportfolio/pfl06.pdf',
     category: 'Social',
-    thumbnail: 'https://picsum.photos/seed/sprouts/1200/800?grayscale'
+    thumbnail: 'https://images.unsplash.com/photo-1530836361253-eead134978b6?q=80&w=1200&auto=format&fit=crop'
   }
 ];
 
