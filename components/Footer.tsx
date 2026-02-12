@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
       </div>
 
       <div className="mt-20 pt-8 border-t border-gray-50 flex flex-col md:flex-row justify-between gap-4 text-xs font-bold uppercase tracking-widest text-gray-400">
-        <div>© 2024 LYNIQ DESIGN PORTFOLIO</div>
+        <div>© 2024 HJL DESIGN PORTFOLIO</div>
         <div>STAY MINIMAL. THINK BOLD.</div>
       </div>
     </footer>

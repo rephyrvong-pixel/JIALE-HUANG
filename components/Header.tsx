@@ -17,7 +17,7 @@ const Header: React.FC = () => {
       <div className="max-w-[1440px] mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
         {/* Logo */}
         <div className="text-xl font-black tracking-tighter">
-          LYNIQ
+          HJL
         </div>
 
         {/* Desktop Nav */}
