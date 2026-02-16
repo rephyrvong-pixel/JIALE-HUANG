@@ -1,4 +1,3 @@
-
 import { Project } from './types';
 
 // Using raw.githubusercontent.com to fetch images directly from the main branch
@@ -13,7 +12,7 @@ export const PROJECTS: Project[] = [
     link: 'https://github.com/rephyrvong-pixel/portfolio/releases/download/masterportfolio/pfl01.pdf',
     videoReference: 'https://github.com/rephyrvong-pixel/portfolio/releases/download/masterportfolio/9154finalvideo.mp4',
     category: 'Product Design',
-    thumbnail: `${THUMBNAIL_BASE}/pfl01.jpg`
+    thumbnail: `${THUMBNAIL_BASE}/pfl01.png`
   },
   {
     id: '2',
@@ -22,7 +21,7 @@ export const PROJECTS: Project[] = [
     tags: ['UI/UX', 'Security'],
     link: 'https://github.com/rephyrvong-pixel/portfolio/releases/download/masterportfolio/pfl02.pdf',
     category: 'UI/UX',
-    thumbnail: `${THUMBNAIL_BASE}/pfl02.jpg`
+    thumbnail: `${THUMBNAIL_BASE}/pfl02.png`
   },
   {
     id: '3',
@@ -31,7 +30,7 @@ export const PROJECTS: Project[] = [
     tags: ['Product Design', 'Urban Planning'],
     link: 'https://github.com/rephyrvong-pixel/portfolio/releases/download/masterportfolio/pfl03.pdf',
     category: 'Product Design',
-    thumbnail: `${THUMBNAIL_BASE}/pfl03.jpg`
+    thumbnail: `${THUMBNAIL_BASE}/pfl03.png`
   },
   {
     id: '4',
@@ -40,7 +39,7 @@ export const PROJECTS: Project[] = [
     tags: ['Environmental Design', 'Research'],
     link: 'https://github.com/rephyrvong-pixel/portfolio/releases/download/masterportfolio/pfl04.pdf',
     category: 'Environment',
-    thumbnail: `${THUMBNAIL_BASE}/pfl04.jpg`
+    thumbnail: `${THUMBNAIL_BASE}/pfl04.png`
   },
   {
     id: '5',
@@ -49,7 +48,7 @@ export const PROJECTS: Project[] = [
     tags: ['HCI', 'Accessibility', 'VR'],
     link: 'https://github.com/rephyrvong-pixel/portfolio/releases/download/masterportfolio/pfl05.pdf',
     category: 'HCI',
-    thumbnail: `${THUMBNAIL_BASE}/pfl05.jpg`
+    thumbnail: `${THUMBNAIL_BASE}/pfl05.png`
   },
   {
     id: '6',
@@ -58,7 +57,7 @@ export const PROJECTS: Project[] = [
     tags: ['Social Innovation', 'Product Design'],
     link: 'https://github.com/rephyrvong-pixel/portfolio/releases/download/masterportfolio/pfl06.pdf',
     category: 'Social',
-    thumbnail: `${THUMBNAIL_BASE}/pfl06.jpg`
+    thumbnail: `${THUMBNAIL_BASE}/pfl06.png`
   }
 ];
 

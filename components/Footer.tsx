@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Github, Linkedin, Mail } from 'lucide-react';
 
@@ -16,7 +15,7 @@ const Footer: React.FC = () => {
         <div className="flex gap-8">
           <a href="#" className="hover:text-gray-500 transition-colors"><Linkedin size={24} /></a>
           <a href="#" className="hover:text-gray-500 transition-colors"><Github size={24} /></a>
-          <a href="#" className="hover:text-gray-500 transition-colors"><Mail size={24} /></a>
+          <a href="mailto:z5564183@ad.unsw.edu.au" className="hover:text-gray-500 transition-colors"><Mail size={24} /></a>
         </div>
       </div>
 
